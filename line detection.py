@@ -3,8 +3,8 @@ import os
 import numpy as np
 
 # 讀取影像
-traffic_lanes_image = cv2.imread('Traffic_Lanes.bmp')
-cv2.imshow('Traffic_Lanes.bmp', traffic_lanes_image)
+traffic_lanes_image = cv2.imread('Sample_1.png')
+cv2.imshow('Sample_1.png', traffic_lanes_image)
 
 # 對Traffic_Lanes.bmp進行直線偵測
 gray_traffic_lanes = cv2.cvtColor(traffic_lanes_image, cv2.COLOR_BGR2GRAY)
